@@ -45,9 +45,14 @@ def jalan(z):
 		sys.stdout.flush()
 		time.sleep(0.05)
 		
-		
-logo = """  \x1b[1;93m______   \x1b[1;92m_______  \x1b[1;94m______    \x1b[1;91m___   _\n \x1b[1;93m|      | \x1b[1;92m|   _   |\x1b[1;94m|    _ |  \x1b[1;91m|   | | |\n \x1b[1;93m|  _    |\x1b[1;92m|  |_|  |\x1b[1;94m|   | ||  \x1b[1;91m|   |_| |\n \x1b[1;93m| | |   |\x1b[1;92m|       |\x1b[1;94m|   |_||_ \x1b[1;91m|      _|\n \x1b[1;93m| |_|   |\x1b[1;92m|       |\x1b[1;94m|    __  |\x1b[1;91m|     |_ \n \x1b[1;93m|       |\x1b[1;92m|   _   |\x1b[1;94m|   |  | |\x1b[1;91m|    _  |\n \x1b[1;93m|______| \x1b[1;92m|__| |__|\x1b[1;94m|___|  |_|\x1b[1;91m|___| |_| \x1b[1;96mFB\n\n \x1b[1;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n ✫╬─ \x1b[1;92mReCode \x1b[1;91m: \x1b[1;93mcyberlimit                   \x1b[1;95m─╬✫\n ✫╬─ \x1b[1;92mFB    \x1b[1;92m \x1b[1;91m: \x1b[1;96mFacebook.com/wisnu     \x1b[1;95m─╬✫\n ✫╬─ \x1b[1;92mGitHub \x1b[1;91m: \x1b[1;94mGithub.com/cyberlimit     \x1b[1;95m─╬✫\n ●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
-"""
+logo = """		
+\x1b[0;36m'¥^=°=°=°°=°=°=°°=°=°°=°=°=°=°=°=°=°=°=°=>
+\x1b[31;1mAuthor   : CyberLimit"
+\x1b[33;1mkontak me: 089614686780"
+\x1b[0;36mMy Team. : Wisnu | Panjull | Rehan"
+\x1b[36;1mGithub.  : CyberLimit"
+\1b[0;32mYoutube. : Cyber Limit"
+\1b[0;36m'¥^=°=°=°=°=°=°=°=°°°=°=°==°=°=°=°=°=°=°=>
 
 def tik():
 	titik = ['.   ','..  ','... ']
