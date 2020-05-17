@@ -104,7 +104,7 @@ def login():
 		print "   My Tim : Wisnu | panjull "
 		print "   Gmail  : Wisnu021102@gmail.com"
 		print "   Youtube: Cyber Limit"
-		print "  github  : https://github,com/cyberlimit
+		print "  github  : https://github,com/cyberlimit"
 		print "============================================"
 		print 
 		print('\033[1;96m[☆] \x1b[1;93mLOGIN AKUN FACEBOOK ANDA \x1b[1;96m[☆]' )
