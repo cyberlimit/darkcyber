@@ -102,7 +102,7 @@ def login():
 		print "============================================"
 		print "   Autor  : Cyber Limit "
 		print "   My Tim : Wisnu | panjull "
-		print "   Gmail  : Wisnu021102@gmail.com
+		print "   Gmail  : Wisnu021102@gmail.com"
 		print "   Youtube: Cyber Limit"
 		print "  github  : https://github,com/cyberlimit
 		print "============================================"
